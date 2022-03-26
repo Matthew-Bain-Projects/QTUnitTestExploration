@@ -1,0 +1,15 @@
+********* Start testing of TestProject1 *********
+Config: Using QtTest library 5.15.2, Qt 5.15.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.2.0), pop 21.10
+PASS   : TestProject1::initTestCase()
+PASS   : TestProject1::test_case1()
+PASS   : TestProject1::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
+********* Finished testing of TestProject1 *********
+********* Start testing of TestProject2 *********
+Config: Using QtTest library 5.15.2, Qt 5.15.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.2.0), pop 21.10
+PASS   : TestProject2::initTestCase()
+FAIL!  : TestProject2::test_case1() 'false' returned FALSE. ()
+   Loc: [../UnitTestingExploration/TestProject2/tst_testproject2.cpp(30)]
+PASS   : TestProject2::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 1ms
+********* Finished testing of TestProject2 *********
